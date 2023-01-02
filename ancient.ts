@@ -1,6 +1,6 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|source|british>>
+<style|<tuple|source|chinese>>
 
 <\body>
   <\active*>
@@ -11,7 +11,7 @@
     </src-title>
   </active*>
 
-  <use-package|chinese|article>
+  <use-package|chinese|article|comment>
 
   <\active*>
     <\src-comment>
@@ -54,6 +54,16 @@
   <assign|ancient-ref|<macro|Id|<locus|<id|<hard-id|<arg|Id>>>|<link|hyperlink|<id|<hard-id|<arg|Id>>>|<url|<merge|#|<arg|Id>>>>|<compound|textcircled|<range|<arg|Id>|<length|footnote->|<length|<arg|Id>>>>>>>
 
   <assign|footnote|<macro|body|<style-with|src-compact|none|<next-footnote><render-footnote|<the-footnote>|<arg|body>><space|0spc><label|<merge|footnr-|<the-footnote>>><rsup|<with|font-shape|right|<ancient-ref|<merge|footnote-|<the-footnote>>>>>>>>
+
+  <\active*>
+    <\src-comment>
+      适用于古籍的批注
+    </src-comment>
+  </active*>
+
+  <assign|render-block-comment|<macro|type|by|body|<surround|<with|color|<comment-color|<arg|type>|<arg|by>>|<condensed|<name|<abbreviate-name|<arg|by>>>>云：>|<right-flush>|<arg|body>>>>
+
+  <assign|render-inline-comment|<macro|type|by|body|<smaller|<surround|<with|color|<comment-color|<arg|type>|<arg|by>>|<condensed|<name|<abbreviate-name|<arg|by>>>>云：>||<arg|body>>>>>
 </body>
 
 <initial|<\collection>
