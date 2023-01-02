@@ -1,13 +1,27 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|generic|chinese|ancient|smart-ref|comment>>
+<style|<tuple|ancient|chinese|smart-ref|comment>>
 
 <\body>
   <\hide-preamble>
     \;
   </hide-preamble>
 
-  <doc-data|<doc-title|亲士>>
+  <doc-data|<doc-title|墨子>>
+
+  <\table-of-contents|toc>
+    <vspace*|2fn><with|font-series|bold|math-font-series|bold|font-size|1.19|卷一>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-1><vspace|1fn>
+
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|亲士>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-2><vspace|0.5fn>
+  </table-of-contents>
+
+  <part*|卷一>
+
+  <chapter*|亲士>
 
   入国而不存其士，则亡国矣。<folded-comment|+1oGwwP6M2ROXoTWy|+1oGwwP6M2ROXoTWz|comment|《说文\<centerdot\>子部》|1672631306||存，恤问也。>见贤而不急，则缓<\footnote>
     缓：怠慢。
@@ -25,7 +39,7 @@
     偪<em|>臣：权重之臣。
   </footnote>伤君，谄下伤上。君必有弗弗之臣<\footnote>
     弗：通「拂」，违背。
-  </footnote>，上必有<pinyin|詻|è>詻之下。分议者延延，而支苟者詻詻，焉可以长生保国。臣下重其爵位而不言，近臣则<pinyin|喑|yīn>，远臣则吟，怨结于民心，谄谀在侧，善议障塞，则国危矣。桀纣不以其无天下之士邪？杀其身而丧天下。故曰：「归国宝，不若献贤而进士。」
+  </footnote>，上必有<pinyin|詻|è>詻之下。分议者延延，而支苟者詻詻，焉可以长生保国。臣下重其爵位而不言，近臣则<pinyin|喑|y\<#0012B\>n>，远臣则吟，怨结于民心，谄谀在侧，善议障塞，则国危矣。桀纣不以其无天下之士邪？杀其身而丧天下。故曰：「归国宝，不若献贤而进士。」
 
   今有五锥，此其<pinyin|铦|xi\<#00101\>n><\footnote>
     铦：锋利。
@@ -44,64 +58,49 @@
 
 <\initial>
   <\collection>
-    <associate|info-flag|detailed>
+    <associate|info-flag|short>
     <associate|page-screen-margin|true>
+    <associate|par-par-sep|1fn>
   </collection>
 </initial>
 
 <\references>
   <\collection>
-    <associate|footnote-1|<tuple|1|1>>
-    <associate|footnote-10|<tuple|10|?>>
-    <associate|footnote-11|<tuple|11|?>>
-    <associate|footnote-12|<tuple|12|?>>
-    <associate|footnote-13|<tuple|13|?>>
-    <associate|footnote-14|<tuple|14|?>>
-    <associate|footnote-15|<tuple|15|?>>
-    <associate|footnote-16|<tuple|16|?>>
-    <associate|footnote-17|<tuple|17|?>>
-    <associate|footnote-18|<tuple|18|?>>
-    <associate|footnote-19|<tuple|19|?>>
-    <associate|footnote-2|<tuple|2|1>>
-    <associate|footnote-20|<tuple|20|?>>
-    <associate|footnote-21|<tuple|21|?>>
-    <associate|footnote-22|<tuple|22|?>>
-    <associate|footnote-23|<tuple|23|?>>
-    <associate|footnote-24|<tuple|24|?>>
-    <associate|footnote-25|<tuple|25|?>>
-    <associate|footnote-26|<tuple|26|?>>
-    <associate|footnote-3|<tuple|3|1>>
-    <associate|footnote-4|<tuple|4|1>>
-    <associate|footnote-5|<tuple|5|1>>
-    <associate|footnote-6|<tuple|6|1>>
-    <associate|footnote-7|<tuple|7|1>>
-    <associate|footnote-8|<tuple|8|1>>
-    <associate|footnote-9|<tuple|9|?>>
-    <associate|footnr-1|<tuple|1|1>>
-    <associate|footnr-10|<tuple|10|?>>
-    <associate|footnr-11|<tuple|11|?>>
-    <associate|footnr-12|<tuple|12|?>>
-    <associate|footnr-13|<tuple|13|?>>
-    <associate|footnr-14|<tuple|14|?>>
-    <associate|footnr-15|<tuple|15|?>>
-    <associate|footnr-16|<tuple|16|?>>
-    <associate|footnr-17|<tuple|17|?>>
-    <associate|footnr-18|<tuple|18|?>>
-    <associate|footnr-19|<tuple|19|?>>
-    <associate|footnr-2|<tuple|2|1>>
-    <associate|footnr-20|<tuple|20|?>>
-    <associate|footnr-21|<tuple|21|?>>
-    <associate|footnr-22|<tuple|22|?>>
-    <associate|footnr-23|<tuple|23|?>>
-    <associate|footnr-24|<tuple|24|?>>
-    <associate|footnr-25|<tuple|25|?>>
-    <associate|footnr-26|<tuple|26|?>>
-    <associate|footnr-3|<tuple|3|1>>
-    <associate|footnr-4|<tuple|4|1>>
-    <associate|footnr-5|<tuple|5|1>>
-    <associate|footnr-6|<tuple|6|1>>
-    <associate|footnr-7|<tuple|7|1>>
-    <associate|footnr-8|<tuple|8|1>>
-    <associate|footnr-9|<tuple|9|?>>
+    <associate|auto-1|<tuple|?|7>>
+    <associate|auto-2|<tuple|?|11>>
+    <associate|footnote-1|<tuple|1|11>>
+    <associate|footnote-10|<tuple|10|11>>
+    <associate|footnote-2|<tuple|2|11>>
+    <associate|footnote-3|<tuple|3|11>>
+    <associate|footnote-4|<tuple|4|11>>
+    <associate|footnote-5|<tuple|5|11>>
+    <associate|footnote-6|<tuple|6|11>>
+    <associate|footnote-7|<tuple|7|11>>
+    <associate|footnote-8|<tuple|8|11>>
+    <associate|footnote-9|<tuple|9|11>>
+    <associate|footnr-1|<tuple|1|11>>
+    <associate|footnr-10|<tuple|10|11>>
+    <associate|footnr-2|<tuple|2|11>>
+    <associate|footnr-3|<tuple|3|11>>
+    <associate|footnr-4|<tuple|4|11>>
+    <associate|footnr-5|<tuple|5|11>>
+    <associate|footnr-6|<tuple|6|11>>
+    <associate|footnr-7|<tuple|7|11>>
+    <associate|footnr-8|<tuple|8|11>>
+    <associate|footnr-9|<tuple|9|11>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|2fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|font-size|<quote|1.19>|卷一>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|1fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|亲士>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>

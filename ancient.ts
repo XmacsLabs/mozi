@@ -11,7 +11,7 @@
     </src-title>
   </active*>
 
-  <use-package|article|chinese>
+  <use-package|chinese|article>
 
   <\active*>
     <\src-comment>
