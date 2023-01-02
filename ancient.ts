@@ -51,7 +51,9 @@
     </style-with>
   </float>>>>
 
-  <assign|reference|<macro|Id|<locus|<id|<hard-id|<arg|Id>>>|<link|hyperlink|<id|<hard-id|<arg|Id>>>|<url|<merge|#|<arg|Id>>>>|<compound|textcircled|<range|<arg|Id>|<length|footnote->|<length|<arg|Id>>>>>>>
+  <assign|ancient-ref|<macro|Id|<locus|<id|<hard-id|<arg|Id>>>|<link|hyperlink|<id|<hard-id|<arg|Id>>>|<url|<merge|#|<arg|Id>>>>|<compound|textcircled|<range|<arg|Id>|<length|footnote->|<length|<arg|Id>>>>>>>
+
+  <assign|footnote|<macro|body|<style-with|src-compact|none|<next-footnote><render-footnote|<the-footnote>|<arg|body>><space|0spc><label|<merge|footnr-|<the-footnote>>><rsup|<with|font-shape|right|<ancient-ref|<merge|footnote-|<the-footnote>>>>>>>>
 </body>
 
 <initial|<\collection>
