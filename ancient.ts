@@ -19,8 +19,6 @@
     </src-comment>
   </active*>
 
-  <assign|font|Noto CJK SC>
-
   <assign|page-medium|paper>
 
   <\active*>

@@ -14,9 +14,9 @@
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-1><vspace|1fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|亲士>
+    <vspace*|2fn><with|font-series|bold|math-font-series|bold|font-size|1.19|亲士>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-    <no-break><pageref|auto-2><vspace|0.5fn>
+    <no-break><pageref|auto-2><vspace|1fn>
   </table-of-contents>
 
   <part*|卷一>
@@ -58,6 +58,8 @@
 
 <\initial>
   <\collection>
+    <associate|font|Noto CJK SC>
+    <associate|font-family|rm>
     <associate|info-flag|short>
     <associate|page-screen-margin|true>
     <associate|par-par-sep|1fn>
@@ -66,28 +68,28 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|7>>
-    <associate|auto-2|<tuple|?|11>>
-    <associate|footnote-1|<tuple|1|11>>
-    <associate|footnote-10|<tuple|10|11>>
-    <associate|footnote-2|<tuple|2|11>>
-    <associate|footnote-3|<tuple|3|11>>
-    <associate|footnote-4|<tuple|4|11>>
-    <associate|footnote-5|<tuple|5|11>>
-    <associate|footnote-6|<tuple|6|11>>
-    <associate|footnote-7|<tuple|7|11>>
-    <associate|footnote-8|<tuple|8|11>>
-    <associate|footnote-9|<tuple|9|11>>
-    <associate|footnr-1|<tuple|1|11>>
-    <associate|footnr-10|<tuple|10|11>>
-    <associate|footnr-2|<tuple|2|11>>
-    <associate|footnr-3|<tuple|3|11>>
-    <associate|footnr-4|<tuple|4|11>>
-    <associate|footnr-5|<tuple|5|11>>
-    <associate|footnr-6|<tuple|6|11>>
-    <associate|footnr-7|<tuple|7|11>>
-    <associate|footnr-8|<tuple|8|11>>
-    <associate|footnr-9|<tuple|9|11>>
+    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-2|<tuple|?|1>>
+    <associate|footnote-1|<tuple|1|1>>
+    <associate|footnote-10|<tuple|10|1>>
+    <associate|footnote-2|<tuple|2|1>>
+    <associate|footnote-3|<tuple|3|1>>
+    <associate|footnote-4|<tuple|4|1>>
+    <associate|footnote-5|<tuple|5|1>>
+    <associate|footnote-6|<tuple|6|1>>
+    <associate|footnote-7|<tuple|7|1>>
+    <associate|footnote-8|<tuple|8|1>>
+    <associate|footnote-9|<tuple|9|1>>
+    <associate|footnr-1|<tuple|1|1>>
+    <associate|footnr-10|<tuple|10|1>>
+    <associate|footnr-2|<tuple|2|1>>
+    <associate|footnr-3|<tuple|3|1>>
+    <associate|footnr-4|<tuple|4|1>>
+    <associate|footnr-5|<tuple|5|1>>
+    <associate|footnr-6|<tuple|6|1>>
+    <associate|footnr-7|<tuple|7|1>>
+    <associate|footnr-8|<tuple|8|1>>
+    <associate|footnr-9|<tuple|9|1>>
   </collection>
 </references>
 
@@ -98,9 +100,9 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|1fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|亲士>
+      <vspace*|2fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|font-size|<quote|1.19>|亲士>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-2><vspace|0.5fn>
+      <no-break><pageref|auto-2><vspace|1fn>
     </associate>
   </collection>
 </auxiliary>
